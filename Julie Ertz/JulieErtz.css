@@ -1,0 +1,112 @@
+/*
+*Claire Campbell
+*1/18/19
+*Julie Ertz
+*/
+
+/*The universal selector*/
+
+* {padding: 0; margin: 0;}
+
+/*Body's width, border, and margin*/
+body {
+    width: 100%
+    margin: 15px auto;
+    border: 2px solid blue;
+}
+
+/*h1's padding*/
+h1 {
+    padding: 10px;
+}
+
+/*Header's height, text-align, border bottom, background color, color, font family and padding*/
+header {
+    height: 100px;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    background-color: lightcyan;
+    color:darkblue;
+    padding: 1em 1em 1em 1em;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+/*SidebarA's width, height, float, right border, text align, padding, background color, color, and font family*/
+#sidebarA {
+    width:20%;
+    height: 750px;
+    float:left;
+    border-right: 2px solid blue;
+    text-align: center;
+    padding: 1em 1em 1em .5em;
+    background-color: cornsilk;
+    color: darkblue;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+/*Main's width, height, float, text align, background color, color, font family, and padding*/
+main {
+    width:52%;
+    height:750px;
+    float:left;
+    text-align: center;
+    color: darkblue;
+    padding: 1em 2em 1em 1.5em;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+/*SidebarB's width, height, float, left border, text align, padding, background color, font family, and color*/
+#sidebarB {
+    width:19%;
+    height: 750px;
+    float:right;
+    border-left: 2px solid blue;
+    text-align: center;
+    padding: 1em 1em 1em 1.5em;
+    background-color: cornsilk;
+    color: darkblue;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+/*Footer's clear, top border, background color, font family, and color*/
+footer {
+    clear: both;
+    border-top:      2px solid blue;
+    background-color: cornsilk;
+    color: darkblue;
+    padding: 1em 1em 1em 2em;  
+    font-family: Arial, helvetica, sans-serif;
+}
+
+/*h2's text align*/
+h2{text-align: center}
+
+/*Paragraph's padding*/
+p {padding: 1em 1em 1em;}
+
+/*list 's list style type */
+#list{list-style-type: none;}
+
+/*list's padding*/
+#list2{padding: .5em 1em 1em 1em}
+
+/*julieawards height, float, and border*/
+#julieawards{width: 150px;
+height: 200px;
+float: auto;
+border: 2px solid black;}
+
+/*ertzfamily's width, height, float, and border*/
+#ertzfamily{width: 250px;
+height: 200px;
+float:auto;
+border: 2px solid black;}
+
+/*julieertz's height, float, and border*/
+#julieertz{width: 200px;
+height: 200px;
+float: auto;
+border: 2px solid black;}
+
+/*blockquote's float*/
+blockquote {float: right;}
